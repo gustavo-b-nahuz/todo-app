@@ -1,4 +1,5 @@
 import { TRPCReactProvider } from '~/trpc/react';
+import "~/styles/todo.css"
 
 export const metadata = {
   title: 'My Todo App',
