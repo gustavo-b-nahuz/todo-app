@@ -1,33 +1,29 @@
 # 📝 My Todo App
 
-Aplicação web simples de gerenciamento de tarefas (to-do list), feita com **Next.js 15**, **tRPC** e **TailwindCSS**, baseada no esqueleto do `create-t3-app`.
+A simple task‑management web app built with **Next.js 15**, **tRPC**, and plain **CSS** (no Tailwind).  
+Tasks are kept **in‑memory** (no database) and exposed through a CRUD tRPC API.
 
-As tarefas são mantidas em **memória** (sem banco de dados) e suportam operações **CRUD** via tRPC.
-
-## 🔧 Tecnologias
-
+## 🔧 Tech Stack
 - [Next.js](https://nextjs.org/)
 - [tRPC](https://trpc.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [create-t3-app](https://create.t3.gg/)
+- CSS (hand‑rolled)
 
-## ✨ Funcionalidades
+## ✨ Features
+- List tasks
+- Create tasks
+- Delete tasks
+- Zod validation
+- Responsive, lightweight UI
 
-- ✅ Listar tarefas
-- ✅ Criar novas tarefas
-- ✅ Remover tarefas
-- ✅ Validação com Zod
-- ✅ UI leve e responsiva com Tailwind
-
-## 🚀 Como rodar
+## 🚀 Getting Started
 
 ```bash
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Rodar servidor de desenvolvimento
+# Start dev server
 npm run dev
 
-# Acessar em:
+# Open in your browser:
 http://localhost:3000
